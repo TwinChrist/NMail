@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/">
+        <file>../images/NSD.ico</file>
+        <file>../images/about.ico</file>
+        <file>../images/close.ico</file>
+        <file>../images/mail.ico</file>
+        <file>../images/new.ico</file>
+        <file>../images/open.ico</file>
+        <file>../images/save.ico</file>
+    </qresource>
+</RCC>
