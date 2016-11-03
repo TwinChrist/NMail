@@ -3,6 +3,7 @@
 # Project created by QtCreator 2013-07-09T15:55:12
 #
 #-------------------------------------------------
+#test of changing
 
 QT      += widgets network
 CONFIG  += C++14
