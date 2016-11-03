@@ -4,7 +4,6 @@
 #include <QTextCodec>
 #include <QCommandLineParser>
 
-
 enum CommandLineParseResult
 {
   eCl_Ok,

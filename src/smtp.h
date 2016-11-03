@@ -38,7 +38,7 @@ public:
                    const QString &vSubject, const QString &vBody,
                    QStringList vFiles = QStringList(), QTextEdit *vTextOut = 0);
 
-    struct ResonseStruct {
+    struct ReasonStruct {
         uint    code;
         QString desc;
     };
@@ -58,7 +58,7 @@ public:
 
     };
 
-    ResonseStruct read(int vTimeout = 30000);
+    ReasonStruct read(int vTimeout = 30000);
     void write(QString vString, bool toBase64 = false, bool vLogCommands = true, int vTimeout = 30000);
 
     bool logStatus;

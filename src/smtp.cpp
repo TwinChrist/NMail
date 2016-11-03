@@ -311,11 +311,11 @@ void Smtp::prompt(QString vString , const QColor vColor) {
   _Textout->setTextColor(Qt::black);
   QApplication::processEvents();
 }
-Smtp::ResonseStruct Smtp::read(int vTimeout)
+Smtp::ReasonStruct Smtp::read(int vTimeout)
 {
   QString mResponseLine;
   QString mResponse;
-  ResonseStruct mResponseStrunct;
+  ReasonStruct mResponseStrunct;
 
   socket->waitForReadyRead(vTimeout);
   do {
@@ -353,7 +353,7 @@ uint Smtp::sendMail(const QString &vFrom, const QString &vTo, const QString &vSu
   } else {
     _Textout = vTextOut;
   }
-  Smtp::ResonseStruct mRes;
+  Smtp::ReasonStruct mRes;
   QString mMessage = "";
 
 
